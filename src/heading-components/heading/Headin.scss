@@ -1,0 +1,129 @@
+// main color:
+@import "../../mainVariables";
+
+.head-p
+{
+    padding-top: 20px;
+    background-color: #fbb81c;
+    width: 100%;
+    height: 100px;
+    border-bottom: 1px white solid;
+    display: flex;
+    justify-content: center;
+    .head-container
+    {
+        width: 1200px;
+        display: inline-flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: baseline;
+        position: relative;
+        .website-logo
+        {
+            display: inline-block;
+        }
+
+        nav
+        {
+            display: flex;
+            width: 70%;
+            position: absolute;
+            justify-content: space-evenly;
+            top: 50px;
+            right: 210px;
+            font-size: 14px;
+
+            .nav-par-i
+            {
+                cursor: pointer;
+            }
+            .nav-par-i::after
+            {
+                content: "";
+                display: inline-block;
+                border: 4px $mainColor solid;
+                border-top: 4px black solid;
+                margin-left: 5px;
+                
+
+            }
+        }
+        .others
+        {
+            display: inline-block;
+            position: relative;
+            top: -10;
+            .heart-i
+            {
+                display: inline-block;
+            }
+            .shoping-cart
+            {
+                display: inline-flex;
+                align-items: flex-start;
+                cursor: pointer;
+                margin: 0px 50px;
+                div
+                {
+                    display: inline-block;
+                }
+                .cart
+                {
+                    position: relative;
+                    span
+                    {
+                        background-color: $headingColor;
+                        border-radius: 50%;
+                        color: $mainColor;
+                        display: inline-flex;
+                        width: 15px;
+                        height: 15px;
+                        justify-content: center;
+                        align-items: center;
+                        font-size: 12px;
+                        position: absolute;
+                        left: 17px;
+                        top: 18px;
+
+                    }
+                }
+                .total-price
+                {
+                    margin-left: 15px;
+                    line-height: 0px;
+                    span
+                    {
+                        color: #555;
+                        font-size: 12px;
+                    }
+                    h5
+                    {
+                        color: $headingColor;
+                        font-size: 16px;
+                        font-weight: 700px;
+                    }
+                }
+            }
+            .category
+            {
+                display: inline-flex;
+                flex-wrap: wrap;
+                justify-content: center;
+                align-items: center;
+                width: 20px;
+                transform: skew(-16deg);
+                height: 15px;
+                padding: 12px;
+                background-color: white;
+                position: absolute;
+                top: -5px;
+                .line1,.line2,.line3
+                {
+                    background-color: black;
+                    width: 15px;
+                    height: 2px;
+                }
+            }
+        }
+    }
+}

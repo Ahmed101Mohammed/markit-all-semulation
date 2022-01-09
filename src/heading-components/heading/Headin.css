@@ -1,0 +1,154 @@
+.head-p {
+  padding-top: 20px;
+  background-color: #fbb81c;
+  width: 100%;
+  height: 100px;
+  border-bottom: 1px white solid;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.head-p .head-container {
+  width: 1200px;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: baseline;
+      -ms-flex-align: baseline;
+          align-items: baseline;
+  position: relative;
+}
+
+.head-p .head-container .website-logo {
+  display: inline-block;
+}
+
+.head-p .head-container nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 70%;
+  position: absolute;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  top: 50px;
+  right: 210px;
+  font-size: 14px;
+}
+
+.head-p .head-container nav .nav-par-i {
+  cursor: pointer;
+}
+
+.head-p .head-container nav .nav-par-i::after {
+  content: "";
+  display: inline-block;
+  border: 4px #fbb81c solid;
+  border-top: 4px black solid;
+  margin-left: 5px;
+}
+
+.head-p .head-container .others {
+  display: inline-block;
+  position: relative;
+  top: -10;
+}
+
+.head-p .head-container .others .heart-i {
+  display: inline-block;
+}
+
+.head-p .head-container .others .shoping-cart {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  cursor: pointer;
+  margin: 0px 50px;
+}
+
+.head-p .head-container .others .shoping-cart div {
+  display: inline-block;
+}
+
+.head-p .head-container .others .shoping-cart .cart {
+  position: relative;
+}
+
+.head-p .head-container .others .shoping-cart .cart span {
+  background-color: #0c1555;
+  border-radius: 50%;
+  color: #fbb81c;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  width: 15px;
+  height: 15px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-size: 12px;
+  position: absolute;
+  left: 17px;
+  top: 18px;
+}
+
+.head-p .head-container .others .shoping-cart .total-price {
+  margin-left: 15px;
+  line-height: 0px;
+}
+
+.head-p .head-container .others .shoping-cart .total-price span {
+  color: #555;
+  font-size: 12px;
+}
+
+.head-p .head-container .others .shoping-cart .total-price h5 {
+  color: #0c1555;
+  font-size: 16px;
+  font-weight: 700px;
+}
+
+.head-p .head-container .others .category {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 20px;
+  -webkit-transform: skew(-16deg);
+          transform: skew(-16deg);
+  height: 15px;
+  padding: 12px;
+  background-color: white;
+  position: absolute;
+  top: -5px;
+}
+
+.head-p .head-container .others .category .line1, .head-p .head-container .others .category .line2, .head-p .head-container .others .category .line3 {
+  background-color: black;
+  width: 15px;
+  height: 2px;
+}
+/*# sourceMappingURL=Headin.css.map */
